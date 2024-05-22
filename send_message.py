@@ -1,4 +1,5 @@
 import socket
+# This script is created by Coder Shiyar
 
 ROBOT_IP = '192.168.0.1'  # Replace with your robot's IP address
 ROBOT_PORT = 10010  # Replace with the port your robot is listening on
