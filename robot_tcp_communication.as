@@ -1,5 +1,7 @@
 .PROGRAM connect_to_pc()
   ; Configuration for connection
+  ; This script is created by Coder Shiyar
+
   timeout_open = 60
   pc_ip[1] = 192
   pc_ip[2] = 168
