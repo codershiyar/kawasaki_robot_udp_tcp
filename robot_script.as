@@ -1,6 +1,6 @@
 .PROGRAM receive_messages_via_UDP()
 ; Kawasaki Robot AS Language Script to receive messages via UDP
-
+; This script is created by Coder Shiyar
 ; Configuration 
 timeout = 9
 ip[1] = 192
