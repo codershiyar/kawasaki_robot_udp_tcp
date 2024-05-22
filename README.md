@@ -52,7 +52,8 @@ This repository contains example code to demonstrate how to establish a UDP comm
 
 ```as
 .PROGRAM connect_to_pc()
-  ; Configuration for connection
+  ; Configuration for connection using TCP.
+  ; This scripts are created by Coder Shiyar
   timeout_open = 60
   pc_ip[1] = 192
   pc_ip[2] = 168
