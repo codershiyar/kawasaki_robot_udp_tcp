@@ -1,5 +1,6 @@
 import socket
 import time
+# This script is created by Coder Shiyar
 
 def start_server(host, port):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
