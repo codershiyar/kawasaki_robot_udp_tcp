@@ -19,6 +19,14 @@ WHILE TRUE DO
     PRINT "Error with the UDP Reception, code: ", ret
     HALT
   END
+
   PRINT "Message: ", $received_message[0]
+ ; Send confirmation message
+      $cnt[0] = $ENCODE (/D, numbytes)
+      UDP_SENDTO ret, ip[1], port, $cnt[0], 1, 9
+      IF ret <> 0 THEN
+        PRINT "Error with the UDP send, code: ", ret
+        ; Optionally handle send error but do not halt
+      END
 END
 .END
